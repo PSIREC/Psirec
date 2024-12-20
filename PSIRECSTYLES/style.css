@@ -40,6 +40,10 @@ nav {
     width: 300px !important;
 }
 
+.offcanvas {
+    width: 400px !important;
+}
+
 .offcanvas-title {
     color: white !important;
     font-family: "Caveat";
