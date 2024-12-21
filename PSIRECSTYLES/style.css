@@ -3,21 +3,28 @@
 
 @media screen and (min-width: 768px) {
     body {
-        background: url(/ASSETS/bgmedium.jpg);
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-position: center;
+        
     }
+        
 }
 
 @media screen and (max-width: 767px) {
     body {
-        background: url(/ASSETS/bgsmall.jpg);
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-position: center;
+        
+    }
+
+    .s1-h {
+        font-family: "Roboto";
+        color: White;
+    }
+
+    .s1-p {
+        font-family: Caveat;
+        font-weight: 700;
+        color: gold;
+    }
+    .s1-box {
+        width: 300px;
     }
 }
 
@@ -26,7 +33,7 @@ nav {
 }
 
 .navbar-dark {
-    background-color: rgba(1, 1, 22, 0.438) !important;
+    background-color: rgba(25, 35, 61, 0.801) !important;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -35,13 +42,14 @@ nav {
 }
 
 .sidebar {
-    background-color: rgb(1, 1, 22) !important;
+    background-color: rgba(25, 35, 61, 0.801) !important;
     top: 70px !important;
     width: 300px !important;
 }
 
 .offcanvas {
-    width: 400px !important;
+    width: 350px !important;
+    height: 100vh !important;
 }
 
 .offcanvas-title {
@@ -56,9 +64,16 @@ nav {
 
 main {
     width: 100%;
-    margin-top: 74px;
+    margin-top: 200px;
 }
 
 .bgppimg {
     width: 100%;
+}
+
+.intro_welc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
 }
