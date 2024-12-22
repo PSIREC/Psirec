@@ -28,7 +28,7 @@ nav {
 }
 
 .navbar-dark {
-    background-color: rgba(25, 35, 61, 0.801) !important;
+    background-color: rgba(2, 7, 20, 0.911) !important;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -40,6 +40,7 @@ nav {
     background-color: rgba(25, 35, 61, 0.966) !important;
     /* top: 70px !important; */
     width: 300px !important;
+    height: 100vh;
 }
 
 .offcanvas {
@@ -49,6 +50,7 @@ nav {
 
 .offcanvas-body {
     width: 100% !important;
+    height: 100% !important;
 }
 
 .offcanvas-title {
@@ -68,13 +70,6 @@ main {
 
 .bgppimg {
     width: 100%;
-}
-
-.intro_welc {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
 }
 
 .loginBtn {
@@ -114,8 +109,4 @@ main {
     .loginBtn {
         width: 70px !important;
     }
-}
-
-.mb-sm, .mb-md {
-    margin-bottom: 80px important;
 }
