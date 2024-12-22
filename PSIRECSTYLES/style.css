@@ -23,6 +23,7 @@
 }
 
 nav {
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
 
@@ -42,8 +43,12 @@ nav {
 }
 
 .offcanvas {
-    width: 350px !important;
-    height: 100vh !important;
+    width: 100% !important;
+    height: 90vh !important;
+}
+
+.offcanvas-body {
+    width: 100% !important;
 }
 
 .offcanvas-title {
@@ -70,4 +75,41 @@ main {
     justify-content: center;
     align-items: center;
     height: 300px;
+}
+
+.loginBtn {
+    background-color: cyan !important; 
+    color: #000 !important; 
+    font-family: Roboto !important;
+    width: 200px !important;
+}
+
+.signupBtn {
+    border: 1px solid cyan !important; 
+    color: cyan !important;
+    width: 200px !important;
+}
+
+.navbar-brand {
+    font-family: Caveat !important; 
+    font-size: 2em !important; 
+    color: cyan !important;
+}
+
+@media screen and (max-width: 470px) {
+    .signupBtn {
+        width: 120px !important;
+    }
+    .loginBtn {
+        width: 120px !important;
+    }
+}
+
+@media screen and (min-width: 995px) {
+    .signupBtn {
+        width: 70px !important;
+    }
+    .loginBtn {
+        width: 70px !important;
+    }
 }
