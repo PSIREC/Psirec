@@ -37,14 +37,14 @@ nav {
 }
 
 .sidebar {
-    background-color: rgba(25, 35, 61, 0.801) !important;
-    top: 70px !important;
+    background-color: rgba(25, 35, 61, 0.966) !important;
+    /* top: 70px !important; */
     width: 300px !important;
 }
 
 .offcanvas {
     width: 100% !important;
-    height: 90vh !important;
+    height: 100vh !important;
 }
 
 .offcanvas-body {
@@ -82,12 +82,14 @@ main {
     color: #000 !important; 
     font-family: Roboto !important;
     width: 200px !important;
+    border-radius: 25px !important;
 }
 
 .signupBtn {
     border: 1px solid cyan !important; 
     color: cyan !important;
     width: 200px !important;
+    border-radius: 25px !important;
 }
 
 .navbar-brand {
@@ -112,4 +114,8 @@ main {
     .loginBtn {
         width: 70px !important;
     }
+}
+
+.mb-sm, .mb-md {
+    margin-bottom: 80px important;
 }
