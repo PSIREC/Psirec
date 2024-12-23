@@ -1,6 +1,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 
+
+body {
+    background-color: #f7fafa !important;
+    min-height: 100vh !important;
+}
+
+
+
+
+
 @media screen and (min-width: 768px) {
         
 }
@@ -37,7 +47,7 @@ nav {
 }
 
 .sidebar {
-    background-color: rgba(25, 35, 61, 0.966) !important;
+    background-color: rgba(2, 7, 20, 0.986) !important;
     /* top: 70px !important; */
     width: 300px !important;
     height: 100vh;
@@ -109,4 +119,32 @@ main {
     .loginBtn {
         width: 70px !important;
     }
+}
+
+main {
+    margin: 100px 100px;
+}
+
+/* section1 styling */
+
+h1 {
+    font-size: 6em !important;
+    color: rgb(2, 7, 20);
+    font-family: Caveat;
+}
+
+h2 {
+    font-family: Roboto !important;
+}
+
+.section1 {
+    height: 500px;
+    /* background-color: #011313 !important; */
+}
+.section1 .imgdiv {
+    background: url(/ASSETS/pexels-karolina-grabowska-5386465.jpg) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 500px;
+    width: 100%;
 }
